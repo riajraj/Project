@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/styleForHome.css">
+
+    <title>Food Temple</title>
+</head>
+
+<!--Mark up for header-->
+<header>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg fixed-top ">
+        <div class="container">
+            <h2>
+                <a href='home.html' class="navbar-brand">Food Temple</a>
+            </h2>
+            <button type="button" class="btn btn-success btn-sm  navbar-toggler " data-target="#menu" data-toggle="collapse" aria-controls="menu" aria-expanded="false" aria-label="toggle navigation"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item "><a href="home.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="ourMenu.html" class="nav-link">Our Menu</a></li>
+                    <li class="nav-item "><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="archive.html" class="nav-link">Archive</a> </li>
+                    <li class="nav-item"><a href="" class="nav-link">Facebook</a> </li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a> </li>
+                    <li class="nav-item active "><a href="contact.html" class="nav-link">Contact</a> </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+</header>
+<!--MArk UP for login form-->
+<section class="container">
+    <h3 class="pb-2 mb-4 mt-lg-5 h3">Food Temple Contact</h3>
+    <div class="row">
+        <div class="col-md-8 m-auto">
+            <h3 class="h3"><a href="#loggin" data-toggle="collapse show" data-target="#loggin" aria-expanded="false" aria-controls="loggin">Login First</a></h3>
+            <form id="loggin" class="jumbotron ">
+
+                <div class="form-group row">
+                    <label for="email" class="col-md-2 col-form-label">Email</label>
+                    <div class="col-md-10">
+                        <input type="text"  class="form-control-plaintext" id="email" value="" placeholder="email@example.com">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-md-2 col-form-label">Password</label>
+                    <div class="col-md-10">
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group form-check ">
+                    <input type="checkbox" class="form-check-input " id="exampleCheck1">
+                    <label class="form-check-label " for="exampleCheck1">Check me out</label>
+                </div>
+                <small class="m-auto"> <a href="#createAccount"  data-toggle="collapse" data-target="#createAccount" aria-expanded="false" aria-controls="createAccount">Have Not Account?Create New Account</a></small>
+                <!--<a href="#attribution" class="nav-link" data-toggle="collapse" data-target="#attribution" aria-expanded="false" aria-controls="attribution">Our Achievement</a>-->
+                <button type="submit" class="btn btn-primary float-right mr-md-5">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!--MarkUp for create Account-->
+    <form >
+        <a href="#createAccount"  data-toggle="collapse" data-target="#createAccount" aria-expanded="false" aria-controls="createAccount"><h3 class="h3">Create New Account</h3></a>
+    <div id="createAccount" class="jumbotron collapse">
+        <div class="row ">
+            <label for="firstName" class="col-md-2 col-form-label" >First Name</label>
+            <input class="form-control col-md-4" id="firstName"  name="first_name" type="text" placeholder="First Name">
+
+            <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+            <input class="form-control col-md-4" id="lastName" name="last_name" type="text" placeholder="Last Name">
+
+        </div>
+        <div class="row">
+            <label for="number" class="col-md-2 col-form-label">Phone Number</label>
+            <input class="form-control col-md-4" id="number" name="number" type="text" placeholder="Your Phone Number">
+
+            <label for="mail" class="col-md-2 col-form-label">Gmail</label>
+            <input class="form-control  col-md-4" id="mail" name="mail" type="email" placeholder="Your Mail">
+        </div>
+        <div class="row">
+            <label for="password" class="col-md-2 col-form-label">Password</label>
+            <input class="form-control col-md-4 " id="password" name="password" type="password" placeholder="Password">
+
+            <label for="re-Type-Password" class="col-md-2 col-form-label">Re-Type-Password</label>
+            <input class="form-control  col-md-4" id="re-Type-Password" name=re-Type-Password" type="Password" placeholder="Re-Type-Password">
+            <label for="address" class="col-md-2 col-form-label">Address</label>
+            <input class="form-control col-md-10" id="address" name="address" type="text" placeholder="Your Address">
+            <label for="file1" class="col-md-2">Uplode Your Photo</label>
+            <input type="file" id="file1" name=photo" class="form-control-file col-md-10">
+
+        </div>
+        <button type="submit" class="btn btn-primary ">Submit</button>
+    </div>
+    </form>
+
+
+</section>
+
+<!--Mark up for MAP-->
+<section class="container contact_map fix text-center" >
+    <h3 class="h3">Location On Map</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.3695000330595!2d91.82871616494724!3d22.33967284710979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8a76910e567%3A0x2bfa0298364ac1d8!2zTmFuZGFuIEthbmFuLCDgpprgpp_gp43gpp_gppfgp43gprDgpr7gpq4!5e0!3m2!1sbn!2sbd!4v1537826156940" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
+
+<!--Mark up for contact-->
+<section class="container text-center">
+   <p class="font-weight-bold"> Contact Info</p>
+    <p class="mb-0"> 162-East Nasirabad, Bayazid Bostami Road,Chittagong.</p>
+    <p class="mb-0">Fax: +880 31 650153</p>
+    <p class="mb-0"> For Inquiry: +88 031-2558551/52, +88 031-653558</p>
+    <p class="mb-0"> For Suggestion & Complain : +88 01713121212</p>
+    <p class="mb-0">  E-mail: mh@Khacho.com</p>
+
+</section>
+<!--Mark up for feed back-->
+<section id="feedback">
+    <div class="container">
+        <h3 class="h3">Write Your Comment</h3>
+        <form>
+            <div class="form-group row">
+                <label for="email" class="col-md-2 col-form-label">Email</label>
+                <input type="text"  class="form-control-plaintext col-md-10"  value="" placeholder="Write Your Eamil">
+
+            <label for="textbox" class="col-md-2">Write Your Comment:</label>
+            <textarea id="textbox" class="col-md-10"> </textarea>
+            <button type="submit" class="btn btn-primary offset-2 mr-md-5">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+</section>
+
+<!--Mark up for About -->
+<section id="about">
+    <div class="container">
+        <nav aria-label="Page navigation example ">
+            <ul class="pagination d-flex justify-content-between">
+                <li class="page-item "><a class="page-link" href="about.html">Previous</a></li>
+
+            </ul>
+        </nav>
+        <div class="row">
+            <div class="col-md-4">
+                <p>We Accept</p>
+                <img src="../img/credit.png" width="170" height="70">
+            </div>
+            <div class="col-md-4">
+                <p>Change Language</p>
+                <label>
+                    <select>
+                        <option value="Bangla" >Bangla</option>
+                        <option value="Moari">Moari</option>
+                    </select>
+                </label>
+            </div>
+            <div class="col-md-4">
+                <p>Help Desk</p>
+                <a href="#"> <img src="../img/callus.png" width="150" height="50"></a>
+                <p> CALL :018222222</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p>Shortly About</p>
+                <p>A Place To Spend Good Time With Great Food In Wonderful Environment</p>
+            </div>
+            <div class="col-md-4">
+                <p>Search Food</p>
+                <form class="<!--form-inline--> my-2 my-lg-0 " >
+                    <input class="form-control mr-sm-2" type="search" placeholder="Custom Search" aria-label="Search">
+                    <button class="btn btn-outline-success " type="submit">Search</button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <p>Like Us</p>
+                <p><a href="http//www.facebook.com"><img src="../img/fb.png"></a></p>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!--Mark up for footer-->
+<footer id="footer">
+    <div class="container ">
+        <p>All rights reserved by Barcode Restaurant Group,A company of N.Mohammed Group © 2013-2018, </p>
+        <p>Designed By : RIAJ RAhMAN</p>
+    </div>
+</footer>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

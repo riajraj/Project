@@ -1,0 +1,179 @@
+@import url(bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+/*@import url(bootstraptheam.min.css);*/
+@import "bootstraptheamsolar.min.css";
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+/*css for top part*/
+header > nav > .container > h2 > a{
+    font-family: 'Ruslan Display', cursive;
+    color: #1b3956;
+    font-size: 45px;
+}
+.bg-dark {
+    background-color: #558671 !important;
+}
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#ourSpecialItems > .container > .row >div > figure > figcaption:hover {
+    width: 350px;
+    height: 100px;
+   /* background-color: black;*/
+    background-image: url("../img/hover.jpg");
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 0;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 0;
+    transition: margin-left 5s linear 5s, background-color 2s ease 1s
+}
+#archive > .container > div:last-child{
+    background-image: url("../img/healthy-food.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+#archive > .container > div:first-child{
+    background-attachment: scroll;
+    background-image: url("../img/");
+}
+
+
+
+
+/*CSS for Our Special Items*/
+.h3{
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+/*Css for About*/
+#about > .container > div{
+    background-color: #000000;
+    text-align: center;
+}
+
+/*css for footer*/
+#footer > .container{
+    background-color: #0c2c42;
+    color: #9a95ff;
+}
+#footer > .container >p{
+    text-align: center;
+    margin: 0;
+}
+
+/*css for our menu*/
+
+.mt-2, .my-2 {
+    margin-top: 5.5rem !important;
+}
+/*Our Menu*/
+#ourMenu > .container > .row > div > a:hover {
+    background-color: black;
+    /* background-image: url("../img/hover");*/
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    border-radius: 10px;
+    text-align: center;
+    transition: linear 2s, background-color 2s ease 1s
+}
+/*gallery*/
+#gallery > .container > .row > div > a:hover{
+    width: 500px;
+    height: 500px;
+}
+body {
+    padding-top: 50px;
+}
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+.caption {
+    position:absolute;
+    top:-100%;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    font-weight: bold;
+    height:100%;
+    padding:2%;
+    border: 1px solid;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+   /* -ms-transition: all 0.5s ease-in-out;*/
+    transition: all .5s ease-in-out;
+}
+
+.thumbnail:hover .caption {
+    top:0;
+}
+/*Zoom in hover*/
+.img_section2 > img {
+    width: 300px;
+    height: auto;
+}
+.img_section2:hover > img{
+    width: 350px;
+    transition: .3s ease-in-out;
+    filter: grayscale(50%);
+}
+/*CSS FOR SOcial icon*/
+/*.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    !* Browser Variations: *!
+
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}*/
+/*CSS for contact page*/
+
+/*CSS for map*/
+.contact_map {
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+}
+
+.fix {
+    overflow: hidden;
+}
+/* ==========================================================================
+   Media Query CSS
+   ========================================================================== */
+@media (min-width: 320px) and (max-width: 480px){
+
+    .employmentLawDatabase {font-size: 11px;}
+    .navbar-default .navbar-toggle .icon-bar {background-color: #fff;}
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background-color: #daf8af;}
+
+    .menu > li {margin: 15px 35px;}
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .nav > li {margin-left: 4px;}
+
+    .navbar-nav > li > a {padding: 3px 10px;
+        font-size: 10px;
+    }
+
+}
